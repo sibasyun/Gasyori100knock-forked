@@ -111,7 +111,7 @@ double MSE(cv::Mat img1, cv::Mat img2){
     }
   }
 
-  mse /= (height * width);
+  mse /= (height * width * channel);
   return mse;
 }
 
@@ -122,7 +122,7 @@ double PSNR(double mse, double v_max){
 
 // Compute bitrate
 double BITRATE(){
-  return T * K * K / T * T;
+  return T * K * K / T / T;
 }
 
 // Main
