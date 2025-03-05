@@ -31,7 +31,7 @@ S = [0,4]の範囲をとり、
 |:---:|:---:|
 |<img src="renketsu.png" width="50px">|<img src="answers/answer_61.png" width="50px">|
 
-答え >> [answers/answer_61.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_61.py)
+答え >> [answers/answer_61.py](answers/answer_61.py)
 
 ## Q.62. 8-連結数
 
@@ -48,7 +48,7 @@ S = (x1 - x1 x2 x3) + (x3 - x3 x4 x5) + (x5 - x5 x6 x7) + (x7 - x7 x8 x1)
 |:---:|:---:|
 |<img src="renketsu.png" width="50px">|<img src="answers/answer_62.png" width="50px">|
 
-答え >> [answers/answer_62.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_62.py)
+答え >> [answers/answer_62.py](answers/answer_62.py)
 
 ## Q.63. 細線化処理
 
@@ -69,7 +69,7 @@ S = (x1 - x1 x2 x3) + (x3 - x3 x4 x5) + (x5 - x5 x6 x7) + (x7 - x7 x8 x1)
 |:---:|:---:|
 |![](gazo.png)|![](answers/answer_63.png)|
 
-答え >> [answers/answer_63.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_63.py)
+答え >> [answers/answer_63.py](answers/answer_63.py)
 
 ## Q.64. ヒルディッチの細線化
 
@@ -93,7 +93,7 @@ S = (x1 - x1 x2 x3) + (x3 - x3 x4 x5) + (x5 - x5 x6 x7) + (x7 - x7 x8 x1)
 |:---:|:---:|
 |![](gazo.png)|![](answers/answer_64.png)|
 
-答え >> [answers/answer_64.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_64.py)
+答え >> [answers/answer_64.py](answers/answer_64.py)
 
 ## Q.65. Zhang-Suenの細線化
 
@@ -134,7 +134,7 @@ Step1, 2で変更する点がなくなるまで交互に繰り返す。
 |:---:|:---:|
 |![](gazo.png)|![](answers/answer_65.png)|
 
-答え >> [answers/answer_65.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_65.py)
+答え >> [answers/answer_65.py](answers/answer_65.py)
 
 ## Q.66. HOG (Step.1) 勾配強度・勾配角度
 
@@ -180,7 +180,7 @@ h(t) = h(t) / sqrt(Sum h(t) + epsilon)
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](answers/answer_66_mag.jpg)|![](answers/answer_66_gra.jpg)|
 
-答え >> [answers/answer_66.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_66.py)
+答え >> [answers/answer_66.py](answers/answer_66.py)
 
 ## Q.67. HOG (Step.2) 勾配ヒストグラム
 
@@ -200,7 +200,7 @@ N=8として、8x8の領域を1セルとして、勾配角度のインデック�
 |:---:|:---:|
 |![](imori.jpg)|<img src="answers/answer_67.png" width="400px">|
 
-答え >> [answers/answer_67.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_67.py)
+答え >> [answers/answer_67.py](answers/answer_67.py)
 
 ## Q.68. HOG (Step.3) ヒストグラム正規化
 
@@ -219,7 +219,7 @@ h(t) = h(t) / sqrt(Sum h(t) + epsilon)
 |:---:|:---:|
 |![](imori.jpg)|<img src="answers/answer_68.png" width="400px">|
 
-答え >> [answers/answer_68.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_68.py)
+答え >> [answers/answer_68.py](answers/answer_68.py)
 
 ## Q.69. HOG (Step.4) 特徴量の描画
 
@@ -235,7 +235,7 @@ h(t) = h(t) / sqrt(Sum h(t) + epsilon)
 |:---:|:---:|
 |![](imori.jpg)|![](answers/answer_69.jpg)|
 
-答え >> [answers/answer_69.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_69.py)
+答え >> [answers/answer_69.py](answers/answer_69.py)
 
 ## Q.70. カラートラッキング
 
@@ -262,4 +262,4 @@ HSV変換とは Q.5で用いた処理であるが、RGBをH(色相)、S(彩度)�
 |:---:|:---:|
 |![](imori.jpg)|![](answers/answer_70.png)|
 
-答え >> [answers/answer_70.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_61_70/answers/answer_70.py)
+答え >> [answers/answer_70.py](answers/answer_70.py)
