@@ -1,3 +1,7 @@
+- cv::rectangleはimgproc.hppで定義されているため、imgproc.hppをincludeしないとコンパイルが通らない。
+- cv::Point(x, y)におけるx, yは、配列の軸と逆で定義されている点に注意が必要。
+
+---
 # Q. 51 - 60
 
 ## Q.51. モルフォロジー勾配
@@ -12,7 +16,7 @@
 |:---:|:---:|
 |![](imori.jpg)|![](answers/answer_51.jpg)|
 
-答え >> [answers/answer_51.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_51.py)
+答え >> [answers/answer_51.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_51.py)
 
 ## Q.52. トップハット変換
 
@@ -28,7 +32,7 @@
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](answers/answer_4.jpg)|![](answers/answer_52.jpg)|
 
-答え >> [answers/answer_52.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_52.py)
+答え >> [answers/answer_52.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_52.py)
 
 ## Q.53. ブラックハット変換
 
@@ -44,7 +48,7 @@
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](answers/answer_4.jpg)|![](answers/answer_53.jpg)|
 
-答え >> [answers/answer_53.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_53.py)
+答え >> [answers/answer_53.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_53.py)
 
 ## Q.54. テンプレートマッチング SSD
 
@@ -75,7 +79,7 @@ S = Sum_{x=0:w, y=0:h} (I(i+x, j+y) - T(x, y) )^2
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](imori_part.jpg)|![](answers/answer_54.jpg)|
 
-答え >> [answers/answer_54.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_54.py)
+答え >> [answers/answer_54.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_54.py)
 
 ## Q.55. テンプレートマッチング SAD
 
@@ -91,7 +95,7 @@ S = Sum_{x=0:w, y=0:h} |I(i+x, j+y) - T(x, y)|
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](imori_part.jpg)|![](answers/answer_55.jpg)|
 
-答え >> [answers/answer_55.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_55.py)
+答え >> [answers/answer_55.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_55.py)
 
 ## Q.56. テンプレートマッチング NCC
 
@@ -112,7 +116,7 @@ NCCは照明変化に強いと言われる。
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](imori_part.jpg)|![](answers/answer_56.jpg)|
 
-答え >> [answers/answer_56.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_56.py)
+答え >> [answers/answer_56.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_56.py)
 
 ## Q.57. テンプレートマッチング ZNCC
 
@@ -135,7 +139,7 @@ ZNCCは平均値を引くことでNCCよりも照明変化に強いと言われ�
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](imori_part.jpg)|![](answers/answer_57.jpg)|
 
-答え >> [answers/answer_57.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_57.py)
+答え >> [answers/answer_57.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_57.py)
 
 ## Q.58. ラベリング 4近傍
 
@@ -184,7 +188,7 @@ ZNCCは平均値を引くことでNCCよりも照明変化に強いと言われ�
 |:---:|:---:|
 |![](seg.png)|![](answers/answer_58.png)|
 
-答え >> [answers/answer_58.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_58.py)
+答え >> [answers/answer_58.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_58.py)
 
 ## Q.59. ラベリング 8近傍
 
@@ -196,7 +200,7 @@ ZNCCは平均値を引くことでNCCよりも照明変化に強いと言われ�
 |:---:|:---:|
 |![](seg.png)|![](answers/answer_59.png)|
 
-答え >> [answers/answer_59.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_59.py)
+答え >> [answers/answer_59.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_59.py)
 
 ## Q.60. アルファブレンド
 
@@ -220,4 +224,4 @@ out = img1 * alpha + img2 * (1 - alpha)
 |:---:|:---:|:---:|
 |![](imori.jpg)|![](thorino.jpg)|![](answers/answer_60.jpg)|
 
-答え >> [answers/answer_60.py](https://github.com/yoyoyo-yo/Gasyori100knock/blob/master/Question_51_60/answers/answer_60.py)
+答え >> [answers/answer_60.py](https://github.com/sibasyun/Gasyori100knock-forked/blob/master/Question_51_60/answers/answer_60.py)
