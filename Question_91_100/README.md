@@ -40,7 +40,7 @@
 |:---:|:---:|
 |![](imori.jpg)|![](answers/answer_91.jpg)|
 
-答え >> [answers/answer_91.py](/answers/answer_91.py)
+答え >> [answers/answer_91.py](answers/answer_91.py)
 
 ## Q.92. K-meansによる減色処理 (Step.2) 減色処理
 
